@@ -1,1 +1,1 @@
-require('bootstrap/dist/css/bootstrap.css');
+require('bulma/css/bulma.css');

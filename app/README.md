@@ -9,6 +9,10 @@ $ npm run watch
 $ npm run production
 ```
 
+## メモ
+- bootstrapよりbulmaのほうがいいな
+- 
+
 ## 進捗
 - 管理アプリ
   - [ ] UI

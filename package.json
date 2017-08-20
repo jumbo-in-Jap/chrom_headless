@@ -13,6 +13,7 @@
   "dependencies": {
     "async": "^2.5.0",
     "asyncawait": "^1.0.6",
+    "bulma": "^0.5.1",
     "chrome-launcher": "^0.6.0",
     "chrome-remote-interface": "^0.24.4",
     "lighthouse": "^2.4.0",
