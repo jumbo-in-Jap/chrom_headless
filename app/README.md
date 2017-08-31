@@ -23,3 +23,8 @@ $ npm run production
     - [ ] 録音を開始する
 - headless client
   - [ ] headless chromeを立ち上げて、接続する
+
+## 適当なアカウント
+n79t1nptr8br@sute.jp
+SampleApp1
+193fd48f-b514-404a-8bf8-d35cc9078827

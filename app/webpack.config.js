@@ -11,6 +11,11 @@ module.exports = {
     resolveLoader: {
         moduleExtensions: ['-loader']
     },
+    externals: [
+        {
+          jquery: 'jQuery'
+        }
+    ],
     module: {
         loaders: [
             {

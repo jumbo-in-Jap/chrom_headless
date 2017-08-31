@@ -6,7 +6,8 @@ async function launchChrome(headless = true) {
     port: 9222,
     chromeFlags: [
       '--disable-gpu',
-      '--enable-logging',
+			'--enable-logging',
+			'--remote-debugging-port=9222',
       headless ? '--headless' : '',
     ]
   });
@@ -34,13 +35,13 @@ launchChrome(true).then(launcher => {
 	    await Page.enable();
 	    await Runtime.enable();
 	    // 画面遷移
-	    await Page.navigate({url: 'http://www.cyokodog.net/'});
+	    await Page.navigate({url: 'http://localhost:8000/public/'});
 	    
 		Page.loadEventFired(() => {
 			onPageLoad(Runtime).then(() => {
-  			protocol.close();
+  			//protocol.close();
   			// プロセスの終了
-  			launcher.kill(); 
+  			//launcher.kill(); 
 			});
 		});
 	 }).on('error', err => {
